@@ -11,6 +11,7 @@
   inputs.src-orient-master.ref   = "refs/heads/master";
   inputs.src-orient-master.owner = "philip-wernersbach";
   inputs.src-orient-master.repo  = "nim-orient";
+  inputs.src-orient-master.dir   = "";
   inputs.src-orient-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
